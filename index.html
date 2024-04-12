@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Fila de Clientes</title>
+</head>
+<body>
+    <form onsubmit="addToQueue(); return false;">
+        <fieldset>
+            <h4>Adicionar cliente à fila</h4>
+            <div class="spacer"></div> <!-- Div para criar espaço em branco -->
+            Nome do cliente: <input type="text" name="cliente"><br>
+            <h5>Escolha uma cor para a ficha:</h5>
+            <input type="color" name="corDeFundo">
+            <br><br>
+            <input type="submit" value="Entrar na fila" class="button">
+            <input type="button" value="Concluir atendimento" class="button" onclick="removeFromQueue();">
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+    <!-- Div para exibir a fila de clientes -->
+    <div id="queue"></div>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url(imagem/imagem2.webp); 
+    background-size: cover;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.queue-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.queue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 50px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Glass effect */
+    backdrop-filter: blur(10px); /* Glass effect */
+    overflow: hidden;
+}
+
+.client {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+/* Aplicar o efeito de vidro no formulário */
+form {
+    background-color: rgba(255, 255, 255, 0.3); /* Cor de fundo com transparência */
+    backdrop-filter: blur(8px); /* Efeito de vidro */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+fieldset {
+    border: none;
+}
+
+/* Estilos para os botões */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo quando o cursor passa por cima do botão */
+.button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilo para o botão "Entrar na fila" */
+.button[value="Entrar na fila"] {
+    background-color: #4682b4; /* Cor azul */
+    color: #fff;
+}
+
+/* Estilo para o botão "Concluir atendimento" */
+.button[value="Concluir atendimento"] {
+    background-color: #ff6347; /* Cor laranja */
+    color: #fff;
+}
+
+/* Estilizando o input de texto para o nome do cliente */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    margin-bottom: 10px; /* Espaçamento inferior */
+    width: 100%; /* Ocupa toda a largura disponível */
+    box-sizing: border-box; /* Inclui padding na largura total */
+}
+
+/* Estilizando o rótulo para escolher uma cor */
+h4 {
+    font-size: 18px;
+    color: #333; /* Cor do texto */
+    margin-bottom: 5px; /* Espaçamento inferior */
+}
+
+/* Estilizando o rótulo para escolher uma cor */
+input[type="text"] {
+    font-size: 18px;
+    color: #333; /* Cor do texto */
+    margin-bottom: 5px; /* Espaçamento inferior */
+}
+
+/* Estilizando o rótulo para escolher uma cor */
+h5 {
+    font-size: 16px;
+    color: #333; /* Cor do texto */
+    margin-bottom: 5px; /* Espaçamento inferior */
+}
+
+/* Estilizando o seletor de cor */
+input[type="color"] {
+    width: 40px; /* Largura do seletor de cor */
+    height: 30px; /* Altura do seletor de cor */
+    border: none;
+    border-radius: 5px; /* Cantos arredondados */
+    vertical-align: middle; /* Alinhamento vertical */
+    cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+    padding: 0; /* Remover qualquer padding padrão */
+}
+
+/* Estilizando o espaço em branco (div spacer) */
+.spacer {
+    margin-bottom: 20px; /* Adiciona espaço em branco abaixo do título */
+}
+
+
+
